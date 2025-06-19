@@ -1,0 +1,31 @@
+---
+title: "Libby Redesign"
+date: 2025-06-18
+slug: "libby"
+description: "A reflection on designing a beginner-friendly recipe site."
+tags: ["design", "reflections"]
+---
+
+## The idea
+
+Libby is a library app used by all ages including kids and elders. What would happen if I made the app easier to use and added a pop of color?
+
+## The Process
+
+First I started out by choosing the base color for the app and I went with the current color (#671936) based on the color of the icon. For those who may be hard of seeing, there will also be alternative color swatches, such as the standard black or white theme, that can be changed when logging into the app and in the settings menu.
+
+- Letting this color stand out provides better contrast from the usual black and gray and has piqued the interest of many different groups of people.
+- I also got the alternate color (#29CFC3) from the logo.
+
+Next, I wrote out everything that the current design of the Libby app had and what needed to be included in the redesign.
+
+- When first opening the Libby app, you are taken to the shelf that shows your current loans and tags.
+- Clicking on the middle button gives you notifications (such as “This book was automatically returned on the due date”) and ways to add library cards.
+- Clicking on the timeline shows all books in your history and the dates you borrowed them.
+- Clicking on the library icon shows popular books currently offered in the Digital Library.
+- Clicking on the search icon shows the search bar and recent searches.
+- With this information, I believe that the most important screens should be home, search, and profile.Home would contain the Libby assistant, basic notifications, current loans, history, and holds.
+- The search would contain the search bar, popular books, and recent searches (when clicking on the search bar)
+- The profile would contain basic settings, the option to manage library cards, and help and support options.
+
+When creating, I tried to keep everything as simple, but still unique, as possible. The colors allowed me to play around more with various elements such as the current loan section which resembles a bookshelf.

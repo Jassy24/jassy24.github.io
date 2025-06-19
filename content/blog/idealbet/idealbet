@@ -1,0 +1,34 @@
+---
+title: "Senior Capstone - Ideal Bet"
+date: 2025-06-18
+slug: "idealbet"
+description: "A reflection on designing a beginner-friendly recipe site."
+tags: ["design", "reflections"]
+---
+
+## Introduction
+
+IdealBet is a sophisticated sports betting probability calculator and analysis platform that combines real-time odds, historical data, and advanced algorithms to provide accurate predictions for sports betting. The platform focuses on NBA betting but is designed to be extensible to other sports.
+
+## System Features
+
+- Real-time odds analysis from multiple sportsbooks
+- Advanced probability calculation algorithms
+- Team and player statistics analysis
+- Custom betting strategies
+- Fantasy betting features
+- User authentication and profile management
+- Saved bets tracking
+- AI-powered betting assistant
+
+## Frontend
+
+- Framework: Next.js with TypeScript
+- Styling: Tailwind CSS
+- Animations: Framer Motion
+- State Management: React Hooks
+- Authentication: NextAuth.js with Google OAuth
+
+## The Result
+
+IdealBet represents a modern approach to sports betting analysis, combining advanced technology with user-friendly design to provide a comprehensive platform for bettors. The project continues to evolve with new features and improvements based on user feedback and technological advancements.

@@ -1,0 +1,91 @@
+{{ define "main" }}
+<div class=" mx-16 my-7">
+
+<div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+  <h2 class="text-3xl font-bold text-center text-white mb-10">Featured Projects</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+    <!-- Card 1 -->
+    <div class="group relative bg-[#1e1e2f] rounded-xl p-4 shadow-lg hover:shadow-2xl transition">
+      <img src="/images/CookBook.png" alt="CookBook"
+        class="w-full h-48 object-cover rounded-md group-hover:opacity-90 transition" />
+      <div class="mt-4">
+        <h3 class="text-xl font-semibold text-white">CookBook</h3>
+        <p class="text-sm text-gray-300 mt-2">A recipe site designed for clarity and usability.</p>
+        <div class="mt-4 flex gap-3">
+          <a href="/blog/cookbook/cookbook" class="text-sm text-purple-300 underline hover:text-purple-100">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="group relative bg-[#1e1e2f] rounded-xl p-4 shadow-lg hover:shadow-2xl transition">
+      <img src="/images/YouTube Recreation.png" alt="YouTube Recreation"
+        class="w-full h-48 object-cover rounded-md group-hover:opacity-90 transition" />
+      <div class="mt-4">
+        <h3 class="text-xl font-semibold text-white">YouTube Recreation</h3>
+        <p class="text-sm text-gray-300 mt-2">A recreation of a youtube homepage from scratch.</p>
+        <div class="mt-4 flex gap-3">
+          <a href="#" class="text-sm text-purple-300 underline hover:text-purple-100">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="group relative bg-[#1e1e2f] rounded-xl p-4 shadow-lg hover:shadow-2xl transition">
+      <img src="/images/Libby Redesign.png" alt="Libby Redesign"
+        class="w-full h-48 object-cover rounded-md group-hover:opacity-90 transition" />
+      <div class="mt-4">
+        <h3 class="text-xl font-semibold text-white">Libby Redesign</h3>
+        <p class="text-sm text-gray-300 mt-2">A modern spin on the Libby app.</p>
+        <div class="mt-4 flex gap-3">
+          <a href="#" class="text-sm text-purple-300 underline hover:text-purple-100">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="group relative bg-[#1e1e2f] rounded-xl p-4 shadow-lg hover:shadow-2xl transition">
+      <img src="/images/Green Lifestyle.png" alt="Green Lifestyle"
+        class="w-full h-48 object-cover rounded-md group-hover:opacity-90 transition" />
+      <div class="mt-4">
+        <h3 class="text-xl font-semibold text-white">CSC 442 -Green Lifestyle</h3>
+        <p class="text-sm text-gray-300 mt-2">An app that encourages the user to live a greener life.</p>
+        <div class="mt-4 flex gap-3">
+          <a href="#" class="text-sm text-purple-300 underline hover:text-purple-100">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="group relative bg-[#1e1e2f] rounded-xl p-4 shadow-lg hover:shadow-2xl transition">
+      <img src="/images/Event Center.png" alt="Event Center"
+        class="w-full h-48 object-cover rounded-md group-hover:opacity-90 transition" />
+      <div class="mt-4">
+        <h3 class="text-xl font-semibold text-white">CSC 340 - Event Center</h3>
+        <p class="text-sm text-gray-300 mt-2">An app designed around local events.</p>
+        <div class="mt-4 flex gap-3">
+          <a href="#" class="text-sm text-purple-300 underline hover:text-purple-100">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="group relative bg-[#1e1e2f] rounded-xl p-4 shadow-lg hover:shadow-2xl transition">
+      <img src="/images/Ideal Bet.png" alt="Ideal Bet"
+        class="w-full h-48 object-cover rounded-md group-hover:opacity-90 transition" />
+      <div class="mt-4">
+        <h3 class="text-xl font-semibold text-white">Senior Capstone - Ideal Bet</h3>
+        <p class="text-sm text-gray-300 mt-2">A site that compares betting data and analyzes to provide accurate predictions for sports betting.</p>
+        <div class="mt-4 flex gap-3">
+          <a href="#" class="text-sm text-purple-300 underline hover:text-purple-100">Read More</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+{{ end }}

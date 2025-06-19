@@ -1,0 +1,6 @@
+{{ define "main" }}
+<h1 class="text-3xl font-bold mb-4">{{ .Title }}</h1>
+<div class="prose prose-invert max-w-none">
+  {{ .Content }}
+</div>
+{{ end }}
