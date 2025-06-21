@@ -1,96 +1,24 @@
 @import "tailwindcss";
 @source "hugo_stats.json";
+@source "content";
+@source "layouts";
+@source "assets";
+@source "themes";
 @custom-variant dark (&:where(.dark, .dark *));
 
-:root {
-  --color-rosewater: hsl(11deg, 59%, 67%);
-  --color-flamingo: hsl(0deg, 60%, 67%);
-  --color-pink: hsl(316deg, 73%, 69%);
-  --color-mauve: hsl(266deg, 85%, 58%);
-  --color-red: hsl(347deg, 87%, 44%);
-  --color-maroon: hsl(355deg, 76%, 59%);
-  --color-peach: hsl(22deg, 99%, 52%);
-  --color-yellow: hsl(35deg, 77%, 49%);
-  --color-green: hsl(109deg, 58%, 40%);
-  --color-teal: hsl(183deg, 74%, 35%);
-  --color-sky: hsl(197deg, 97%, 46%);
-  --color-sapphire: hsl(189deg, 70%, 42%);
-  --color-blue: hsl(220deg, 91%, 54%);
-  --color-lavender: hsl(231deg, 97%, 72%);
-  --color-cat-text: hsl(234deg, 16%, 35%);
-  --color-subtext-1: hsl(233deg, 13%, 41%);
-  --color-subtext-0: hsl(233deg, 10%, 47%);
-  --color-overlay-2: hsl(232deg, 10%, 53%);
-  --color-overlay-1: hsl(231deg, 10%, 59%);
-  --color-overlay-0: hsl(228deg, 11%, 65%);
-  --color-surface-2: hsl(227deg, 12%, 71%);
-  --color-surface-1: hsl(225deg, 14%, 77%);
-  --color-surface-0: hsl(223deg, 16%, 83%);
-  --color-base: hsl(220deg, 23%, 95%);
-  --color-mantle: hsl(220deg, 22%, 92%);
-  --color-crust: hsl(220deg, 21%, 89%);
-}
-
-html.dark {
-  --color-rosewater: #f5e0dc;
-  --color-flamingo: #f2cdcd;
-  --color-pink: #f5c2e7;
-  --color-mauve: #cba6f7;
-  --color-red: #f38ba8;
-  --color-maroon: #eba0ac;
-  --color-peach: #fab387;
-  --color-yellow: #f9e2af;
-  --color-green: #a6e3a1;
-  --color-teal: #94e2d5;
-  --color-sky: #89dceb;
-  --color-sapphire: #74c7ec;
-  --color-blue: #89b4fa;
-  --color-lavender: #b4befe;
-  --color-cat-text: #cdd6f4;
-  --color-subtext-1: #bac2de;
-  --color-subtext-0: #a6adc8;
-  --color-overlay-2: #9399b2;
-  --color-overlay-1: #7f849c;
-  --color-overlay-0: #6c7086;
-  --color-surface-2: #585b70;
-  --color-surface-1: #45475a;
-  --color-surface-0: #313244;
-  --color-base: #1e1e2e;
-  --color-mantle: #181825;
-  --color-crust: #11111b;
-}
-
-@theme inline {
-  --color-rosewater: var(--color-rosewater);
-  --color-flamingo: var(--color-flamingo);
-  --color-pink: var(--color-pink);
-  --color-mauve: var(--color-mauve);
-  --color-red: var(--color-red);
-  --color-maroon: var(--color-maroon);
-  --color-peach: var(--color-peach);
-  --color-yellow: var(--color-yellow);
-  --color-green: var(--color-green);
-  --color-teal: var(--color-teal);
-  --color-sky: var(--color-sky);
-  --color-sapphire: var(--color-sapphire);
-  --color-blue: var(--color-blue);
-  --color-lavender: var(--color-lavender);
-  --color-cat-text: var(--color-cat-text);
-  --color-subtext-1: var(--color-subtext-1);
-  --color-subtext-0: var(--color-subtext-0);
-  --color-overlay-2: var(--color-overlay-2);
-  --color-overlay-1: var(--color-overlay-1);
-  --color-overlay-0: var(--color-overlay-0);
-  --color-surface-2: var(--color-surface-2);
-  --color-surface-1: var(--color-surface-1);
-  --color-surface-0: var(--color-surface-0);
-  --color-base: var(--color-base);
-  --color-mantle: var(--color-mantle);
-  --color-crust: var(--color-crust);
-}
 
 /* Set default styles */
 html {
-  @apply text-cat-text;
-  @apply bg-base;
+  background-color: #121828;
+  @apply text-white;
+}
+
+.card-body {
+  @apply relative;
+  background-color: #1e1e2f;
+  @apply rounded-xl;
+  @apply p-4;
+  @apply shadow-lg;
+  @apply hover:shadow-2xl;
+  @apply transition;
 }
