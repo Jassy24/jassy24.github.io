@@ -7,7 +7,7 @@
   {{ partialCached "css.html" . }}
   {{ partialCached "js.html" . }}
   <title>Jasani Smallwood {{ .Page.Title }}</title>
-  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon.png" | relURL }}">
 </head>
 
 <body class="flex flex-col justify-between min-h-screen">
